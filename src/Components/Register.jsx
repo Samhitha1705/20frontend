@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import '../SharedCSS/SharedCss.css';
 import axios from "axios";
-import Loader from "../Assets/Loader"; // Ensure Loader is correctly imported
+import Loader from "../Assets/Loader"; // Ensure Loader is correctly importedd
 
 const Register = () => {
     const [employee_name, setEmployeename] = useState("");
